@@ -1,0 +1,15 @@
+#include <cstdio>
+#include <iostream>
+using namespace std;
+int payroll = 0, total = 0;
+
+int main() {
+    while (payroll != 999)
+    {
+        printf("Enter payroll amount: ");
+        scanf("%d", &payroll);
+        total += payroll;
+    }
+    printf("Total payroll amount: %d", total);
+  return 0;
+}
