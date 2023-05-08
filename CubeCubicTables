@@ -1,0 +1,18 @@
+#include <cstdio>
+#include <iostream>
+using namespace std;
+int n, num, square, cube;
+
+int main() {
+    n = 1;
+    printf("Number \t Square \t Cube");
+    printf("\n");
+    do{
+        num = n;
+        square = n * n;
+        cube = n * n * n;
+        printf("%d \t\t %d \t\t %d \n", num, square, cube);
+        n = n + 1;
+    }while(n < 21);
+  return 0;
+}
